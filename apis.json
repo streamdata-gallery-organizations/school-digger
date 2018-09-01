@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - School Digger",
+	"description": "This is a repository of school digger APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/school-digger.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://school-digger.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "School Digger",
+			"x-api-slug": "school-digger",
+			"description": "Start your search for a great school at SchoolDigger.com! We have test scores, rankings, school and district boundaries, student/teacher ratios, ethnic makeup, and scores of other useful metrics and information for over 120,000 elementary, middle, and high schools in the United States!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/schooldigger.png",
+			"humanURL": "http://schooldigger.com",
+			"baseURL": "https://api.schooldigger.com//",
+			"tags": "School Digger",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/school-digger/master/_listings/school-digger/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "School Digger",
+	"include": [
+		{
+			"name": "School Digger",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/school-digger/master/_listings/school-digger/apis.yaml"
+		}
+	]
+}
